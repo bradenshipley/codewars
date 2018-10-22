@@ -5,7 +5,7 @@ You know that a piece of paper has a thickness of 0.0001m. Given distance in uni
 (If you're not familiar with the concept of folding a paper: Each fold doubles its total thickness.)
 
 Code below:
-************************************** */
+************************************* */
 
 function foldTo(distance) {
 /*setting an exit statement 
