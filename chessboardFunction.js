@@ -13,14 +13,18 @@ Passing this string to console.log should show something like this:
 When you have a program that generates this pattern, define a binding size = 8 and change the program so that it works for any size, outputting a grid of the given width and height.
 */
 var chessboard=function(size){
+// creating an empty board
 var board="";
+//nested for loop setting x and y axises
 	for (let y=0;y<size;y++){
 		for (let x=0;x<size;x++){
+		//setting the pattern
 		if ((x+y)%2==0) {
         	board += " ";
 		} else {
         	board += "#";
     		}
+		/*line break after x for loop but before the y for loop starts back over*/
 		} board+= "\n";
 	}
   console.log(board);
